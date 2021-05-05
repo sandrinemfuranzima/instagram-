@@ -70,6 +70,7 @@ def like(request,pic_id):
 	save_like()
 	return redirect(timeline)
 
+
 # @login_required(login_url='/accounts/login/')
 # def search_pic(request):
 
