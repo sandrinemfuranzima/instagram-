@@ -39,6 +39,7 @@ def comment(request,id):
 	return render(request,'comment.html',{"form":form})  
 
 
+
 @login_required(login_url='/accounts/login/')
 def profile(request):
 	 current_user = request.user
