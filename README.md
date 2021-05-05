@@ -26,6 +26,7 @@ As a user of the application i should be able to:
 
    ```$ pip install django==1.11```
 
+
 * Create a virtual environment
 
    `$ sudo apt-get install python3.6-venv`
