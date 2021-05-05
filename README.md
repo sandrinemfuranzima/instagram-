@@ -10,6 +10,7 @@ Instagram- is an application that lets you display your photos for others to vie
 
 ## User Stories
 
+
 As a user of the application i should be able to:
 
 * Sign in to the application to start using.
