@@ -33,6 +33,7 @@ ALLOWED_HOSTS = ['*']
 # Application definition
 
 INSTALLED_APPS = [
+    'inst',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -41,7 +42,6 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'tinymce',
     'bootstrap3',
-    'inst.apps.InstConfig',
     
 ]
 
@@ -115,7 +115,7 @@ db_from_env = dj_database_url.config(conn_max_age=500)
 
 LANGUAGE_CODE = 'en-us'
 
-TIME_ZONE = 'Africa/kigali'
+TIME_ZONE = 'UTC'
 
 USE_I18N = True
 
