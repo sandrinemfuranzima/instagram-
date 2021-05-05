@@ -9,3 +9,5 @@ admin.site.register(Comment)
 admin.site.register(Follow)
 admin.site.register(Unfollow)
 admin.site.register(Likes)
+
+

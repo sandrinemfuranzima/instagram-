@@ -39,6 +39,7 @@ def comment(request,id):
 	return render(request,'comment.html',{"form":form})  
 
 
+
 @login_required(login_url='/accounts/login/')
 def profile(request):
 	 current_user = request.user
@@ -68,6 +69,7 @@ def like(request,pic_id):
 	like +=1
 	save_like()
 	return redirect(timeline)
+
 
 # @login_required(login_url='/accounts/login/')
 # def search_pic(request):

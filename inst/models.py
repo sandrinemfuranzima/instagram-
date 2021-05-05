@@ -23,6 +23,7 @@ class Pic(models.Model):
     def save_pic(self):
     	self.save()
 
+	
     def update_caption(self,new_caption):
     	self.pic_caption = new_caption
     	self.save()

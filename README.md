@@ -4,12 +4,12 @@ This application was built by Django version 1.11 a python framework.
 
 Instagram- is an application that lets you display your photos for others to view,comment,like,follow  and unfollow.
 
-
 ### Description
 
 Instagram- is an application that lets you display your photos for others to view,comment,like,follow,upload images and unfollow.
 
 ## User Stories
+
 
 As a user of the application i should be able to:
 
@@ -26,6 +26,7 @@ As a user of the application i should be able to:
 
    ```$ pip install django==1.11```
 
+
 * Create a virtual environment
 
    `$ sudo apt-get install python3.6-venv`
@@ -37,7 +38,6 @@ As a user of the application i should be able to:
 * Install gunicorn: (virtual)
 
    ```$ python3.6 -m pip install gunicorn```
-
 
 ## Technologies Used
 
