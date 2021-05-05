@@ -11,6 +11,7 @@ class ProfileForm(forms.ModelForm):
 	profile_pic = forms.ImageField(label = 'Image Field')
 
 
+	
 class ProfileUploadForm(forms.ModelForm):
 	class Meta:
 		model = Profile
